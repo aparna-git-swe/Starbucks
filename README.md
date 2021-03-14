@@ -1,1 +1,1 @@
-# Starbucks
+# Starbucks Capstone Project
