@@ -27,7 +27,7 @@ The business problem that I would like to solve is how to get more customers to 
 
 The data is contained in three files:<br/>
 
- **.**portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.).<br/>
+ **.** portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.).<br/>
  .profile.json - demographic data for each customer.<br/>
  .transcript.json - records for transactions, offers received, offers viewed, and offers completed.<br/>
 Here is the schema and explanation of each variable in the files:<br/>
