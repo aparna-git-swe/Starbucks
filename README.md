@@ -27,14 +27,14 @@ The business problem that I would like to solve is how to get more customers to 
 
 The data is contained in three files:<br/>
 
- **.** portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.).<br/>
- .profile.json - demographic data for each customer.<br/>
- .transcript.json - records for transactions, offers received, offers viewed, and offers completed.<br/>
+ **-** portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.).<br/>
+ -profile.json - demographic data for each customer.<br/>
+ -transcript.json - records for transactions, offers received, offers viewed, and offers completed.<br/>
 Here is the schema and explanation of each variable in the files:<br/>
 
 #### Data is contained in three files:
 
-**portfolio.json**- containing offer ids and metadata about each offer (duration, type, etc.) <br/>
+**1. portfolio.json**- containing offer ids and metadata about each offer (duration, type, etc.) <br/>
 id (string) - offer id<br/>
 
 offer_type (string) - type of offer ie BOGO, discount, informational<br/>
@@ -47,7 +47,7 @@ duration (int) - time for offer to be open, in days<br/>
 
 channels (list of strings)<br/>
 
-**profile.json** - demographic data for each customer<br/>
+**2. profile.json** - demographic data for each customer<br/>
 age (int) - age of the customer<br/>
 
 became_member_on (int) - date when customer created an app account<br/>
@@ -58,7 +58,7 @@ id (str) - customer id<br/>
 
 income (float) - customer's income<br/>
 
-**transcript.json** - records for transactions, offers received, offers viewed, and offers complete <br/>
+**3. transcript.json** - records for transactions, offers received, offers viewed, and offers complete <br/>
 event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
 
 person (str) - customer id<br/>
