@@ -1,7 +1,7 @@
 # Starbucks Capstone Project
 ## Table of contents
 1. [Introduction](https://github.com/aparna-git-swe/Starbucks/blob/master/README.md#introduction)
-2. [Project Overview](https://github.com/aparna-git-swe/Starbucks/blob/master/README.md#project-overview
+2. [Project Overview](https://github.com/aparna-git-swe/Starbucks/blob/master/README.md#project-overview)
 3. [Dataset Description](https://github.com/aparna-git-swe/Starbucks/blob/master/README.md#dataset-description)
 4. [libraries](https://github.com/aparna-git-swe/Starbucks/blob/master/README.md#libraries)
 5. [Process](https://github.com/aparna-git-swe/Starbucks/blob/master/README.md#process)
