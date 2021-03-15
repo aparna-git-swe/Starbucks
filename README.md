@@ -4,7 +4,7 @@
 2. [Project Overview]
 3. [Dataset Description]
 4. [libraries]
-5. [Summary of result]
+5. [Process]
 
 ## Introduction
 This project is Capstone project  of the Udacity's Data Scientist Nanodegree Program .<br/>
@@ -22,7 +22,7 @@ This data set contains three files. The first file describes the characteristics
 
 The business problem that I would like to solve is how to get more customers to complete the offers and how we can reward the customer that make purchases during the promotional period for their loyalty.
 
-## File Descriptions:
+## Dataset Description:
 
 The data is contained in three files:<br/>
 
@@ -66,7 +66,8 @@ time (int) - time in hours since start of test. The data begins at time t=0<
 
 value - (dict of strings) - either an offer id or transaction amount depending on the record<br/>
 
-#### Following Libraries was used to complete this project
+### libraries
+Following Libraries was used to complete this project
 
 pandas<br/>
 
@@ -100,9 +101,13 @@ from sklearn.linear_model import LogisticRegression<br/>
 
 from sklearn.ensemble import RandomForestRegressor<br/>
 
-### The Process used to complete this project
+### Process
+The Process used to complete this project<br/>
 
 Business Objective<br/>
 Analyze business problem with visuals, data exploration understand which features and algorithm will be best.<br/>
 Implement algorithm<br/>
 Present result and write blog post about my findings.<br/>
+
+### Analysis Summary:
+Analysis complete summary is present [here](https://bantuaparna.medium.com/starbucks-rewards-b8c1f0c22e9a) in a Medium Post.
